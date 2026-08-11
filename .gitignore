@@ -1,0 +1,35 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model training artifacts (auto-generated, never source)
+catboost_info/
+*.log
+
+# Data (raw and large processed files - never commit these directly)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Trained model binaries - track via a release/artifact store, not git, unless small and pinned
+models/*.pkl
+models/*.joblib
+
+# Environment / secrets
+.env
+
+# Node (once frontend/ exists)
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor cruft
+.DS_Store
+.vscode/*
+!.vscode/settings.json

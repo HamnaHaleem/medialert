@@ -1,0 +1,26 @@
+﻿# --- Data & ML ---
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+catboost
+imbalanced-learn
+shap
+
+# --- Visualisation ---
+matplotlib
+seaborn
+
+# --- API ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- Utilities ---
+joblib
+python-dotenv
+
+# --- Testing ---
+pytest
+httpx
