@@ -1,0 +1,7 @@
+{
+  "model": "XGBoost",
+  "optimal_threshold": 0.32,
+  "f1_at_optimal_threshold": 0.701628315877991,
+  "f1_at_default_threshold": 0.6448626345979672,
+  "note": "Selected on a held-out GroupShuffleSplit validation set, not on any benchmarking test fold. Not used by the live API (see backend/model.py risk_level_from_probability)."
+}

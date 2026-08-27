@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+hmn/                # old venv name — delete once migrated to .venv
 
 # Jupyter
 .ipynb_checkpoints/
@@ -12,15 +13,18 @@ venv/
 catboost_info/
 *.log
 
-# Data (raw and large processed files - never commit these directly)
+# Data (raw and large processed files — never commit these directly)
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*.csv
 !data/processed/.gitkeep
 
-# Trained model binaries - track via a release/artifact store, not git, unless small and pinned
+# Trained model binaries — track via a release/artifact store, not git, unless small and pinned
 models/*.pkl
 models/*.joblib
+
+# Runtime database — generated at runtime, contains only test/demo data, never committed
+data/medialert.db
 
 # Environment / secrets
 .env
@@ -33,3 +37,6 @@ frontend/dist/
 .DS_Store
 .vscode/*
 !.vscode/settings.json
+node_modules/
+
+data/*.csv
