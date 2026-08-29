@@ -18,6 +18,7 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*.csv
 !data/processed/.gitkeep
+data/*.csv
 
 # Trained model binaries — track via a release/artifact store, not git, unless small and pinned
 models/*.pkl
@@ -37,6 +38,5 @@ frontend/dist/
 .DS_Store
 .vscode/*
 !.vscode/settings.json
-node_modules/
 
-data/*.csv
+node_modules/
