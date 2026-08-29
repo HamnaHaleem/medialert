@@ -47,6 +47,10 @@ This generates a real random secret for signing login sessions. Without this fil
 Medical Dataset
 https://www.kaggle.com/datasets/calebbrian/medical-daataset/data
 
+Save it as:
+```
+data/raw/medical_dataset.csv
+```
 
 ## Installation / Pipeline Order
 
